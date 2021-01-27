@@ -12,3 +12,28 @@ console.log("Hello from loops!")
 // 5) Create a variable called squaredNumbers that starts off as an empty array. Loop through the numbers variable (from exercise 4), and for each one, push that number squared into the squaredNumbers array. (To square a number, multiple it by itself!)
 
 // 6) Create an object that contains the names of 3 friends as keys, with each key pointing to that friend's age. (It is ok to guess your friends' ages.) Assign this object to a variable called friends. Loop through this object, and for each key-value pair, print "<name> is <age> years old"
+
+
+//1 
+// for (i = 1; i > 10; i++);
+//console.log(i);
+
+
+//2 FOR loop
+//for (let i = 20; i < 100; i = i += 5) {
+   // console.log(i * 5)
+  //}
+
+// WHILE loops
+//let i = 20
+//while (i <= 100) {
+  //console.log(i)
+  //i++
+//}
+
+let whileLoop = 20;
+
+while (whileLoop < 100) {
+console.log(whileLoop);
+whileLoop += 5;
+}

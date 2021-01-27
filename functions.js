@@ -14,3 +14,10 @@ console.log("Hello from functions!")
 // Invoke this function, and assign it to a new variable. Print this variable.
 
 // 5) Write a function called addHype that takes in an array of strings. It should return an array of strings that are capitalized versions of the input strings. For example, it would turn ['violet', 'moose', 'hercules'] into ['VIOLET', 'MOOSE', 'HERCULES']
+
+// 1
+
+function greetMany(name = 'stranger') {
+    console.log(`good day to you, ${name}!`)
+  }
+  greetMany()

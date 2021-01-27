@@ -26,3 +26,20 @@ console.log("Hello from conditionals!")
 //            no | 3    4
 // Your conditional handles one of these outcomes. Build it out so that it handles all 4, printing something different in each case.
 
+
+// 1
+let dogName = 'Moose';
+
+if(dogName === 'Violet') {
+    console.log('This is the best dog!');
+} else if (dogName === 'Moose') {
+    console.log('Also a very good dog');
+} else {
+    console.log('All dogs are good');
+}
+
+//2
+
+if( 5 > 4) {
+    console.log('Math still works, what a relief')
+} else if
